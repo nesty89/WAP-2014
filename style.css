@@ -1,0 +1,51 @@
+/* DOM inspektor, Igor Pavlu, xpavlu06 */
+#demo{
+	color:blue;
+	text-align: center;
+}
+
+.green{
+	color:green;
+}
+
+
+/*---------------------------------------------------------------*/
+/* definovani div prvku pro puvodni stranku 
+	width: sirka elementu
+	float: umisteni (vlevo)
+	overflow-x: scrollovaci panel v ose x 
+ */
+#normalPage {
+	width: 50%;
+	float:left;
+	overflow-x: scroll;
+}
+
+
+/* definovani div prvku pro informacni panel
+	width: sirka elementu
+	float: umisteni (vpravo)
+	overflow-x: scrollovaci panel v ose x 
+ */
+#dom {
+	width: 50%;
+	float: right;
+	overflow-x: scroll;
+}
+
+/* definovani div prvku pro puvodni stranku 
+	definovani zarovnani p prvku v dom casti
+ */
+#dom p {
+	margin: 0px;
+	padding: 0px;
+}
+/* zvyrazneni pozadi oznaceneho prvku - cervene
+ */
+.highlight{
+	background: red;
+}
+
+/* slouzi pouze pro odliseni handleru na klik
+*/
+.no-tree{}
